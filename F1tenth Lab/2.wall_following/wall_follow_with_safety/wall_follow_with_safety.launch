@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+ <!-- Launch the dohyeong Node -->
+  <node pkg="safety" name="safety_node" type="safety_node" output="screen" > 
+  </node>
+
+  <node pkg="wall_follow" name="wall_follow" type="wall_follow.py" output="screen" > 
+  </node>
+
+</launch>
